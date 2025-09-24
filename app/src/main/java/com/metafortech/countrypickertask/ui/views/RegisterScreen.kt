@@ -17,9 +17,11 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
+import com.metafortech.countrypickertask.R
 import com.metafortech.countrypickertask.ui.components.CountryCodePicker
 import com.metafortech.countrypickertask.ui.components.CountryModel
 import com.metafortech.countrypickertask.ui.components.ScreenContainer
@@ -43,28 +45,26 @@ fun RegisterScreen() {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = "One Last Step",
+            text = stringResource(R.string.one_last_step),
             fontSize = 24.ssp,
             fontWeight = FontWeight.Bold,
-            textAlign = TextAlign.Center,
             color = Color.Black
         )
         VSpacer(height = 18)
         Text(
-            text = "Please login or signup for a",
+            text = stringResource(R.string.please_login_or_signup_for_a),
             fontSize = 12.ssp,
-            textAlign = TextAlign.Center,
             color = Color.Black
         )
         Row {
             Text(
-                text = "free",
+                text = stringResource(R.string.free),
                 fontSize = 12.ssp,
                 fontWeight = FontWeight.Bold,
                 color = Color.Black
             )
             Text(
-                text = " account to continue",
+                text = stringResource(R.string.account_to_continue),
                 fontSize = 12.ssp,
                 color = Color.Black
             )
@@ -78,7 +78,7 @@ fun RegisterScreen() {
         )
         VSpacer(height = 5)
         Text(
-            text = "We will use this to verify your account",
+            text = stringResource(R.string.we_will_use_this_to_verify_your_account),
             fontSize = 9.ssp,
             modifier = Modifier
                 .align(Alignment.Start)
@@ -103,12 +103,12 @@ fun RegisterScreen() {
 
             Row {
                 Text(
-                    text = "I agree and comply to the ",
+                    text = stringResource(R.string.i_agree_and_comply_to_the),
                     fontSize = 9.ssp,
                     color = Color.Black
                 )
                 Text(
-                    text = "community guidelines",
+                    text = stringResource(R.string.community_guidelines),
                     fontSize = 9.ssp,
                     color = Color.Blue.copy(alpha = 0.5f)
                 )

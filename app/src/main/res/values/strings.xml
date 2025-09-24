@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">CountryPickerTask</string>
+    <string name="one_last_step">One Last Step</string>
+    <string name="please_login_or_signup_for_a">Please login or signup for a</string>
+    <string name="account_to_continue">" account to continue"</string>
+    <string name="free">free</string>
+    <string name="we_will_use_this_to_verify_your_account">We will use this to verify your account</string>
+    <string name="i_agree_and_comply_to_the">"I agree and comply to the "</string>
+    <string name="community_guidelines">community guidelines</string>
 </resources>
